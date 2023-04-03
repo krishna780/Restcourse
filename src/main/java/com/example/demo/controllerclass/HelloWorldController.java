@@ -1,9 +1,6 @@
-package com.example.demo;
+package com.example.demo.controllerclass;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.MessageSource;
-import org.springframework.context.i18n.LocaleContextHolder;
-import org.springframework.web.bind.annotation.GetMapping;
+import com.example.demo.model.Helloworldbean;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
